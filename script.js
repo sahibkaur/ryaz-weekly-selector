@@ -8,6 +8,7 @@ function getData(){
 	var length = names.length;
 	var dynLength = length;
 	var cell = document.getElementsByClassName("cell");
+	var fixCell = document.getElementsByClassName("fix-cell");
 	for (var i=0; i< dynNames.length;i++){
 		console.log(dynNames[i]);
 	}
@@ -21,4 +22,6 @@ function getData(){
 		dynLength--;
 		console.log(dynLength);
 	}
+	fixCell[0].innerHTML = "Uncle Leo";
+	fixCell[1].innerHTML = "Trainees";
 }
