@@ -82,3 +82,8 @@ table td{
 button:focus{
 	outline: none;
 }
+@media screen and (min-width: 800px){
+	table{
+		margin-top: 30px;
+	}
+}
